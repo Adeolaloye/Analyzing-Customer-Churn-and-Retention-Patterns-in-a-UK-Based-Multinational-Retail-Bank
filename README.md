@@ -7,9 +7,9 @@
 - [Data Dictionary](#data-dictionary)
 - [Technology Stack ](#technology-stack)
 - [Process](#process)
-- [Key Recommendations and Actionable Insights](#key-recommendations-and-actionable-insights)
-- [Conclusion](#conclusion)
-
+- [Key Actionable Insights](#key-actionable-insights)
+- [strategic Recommendations](#strategic-recommendations)
+- [Outcome Expectation](#outcome-expectation)
 ### Overview
 Veritas Bank is a UK-headquartered retail bank established in the 1990s with major operations across Germany and France. Over the past two decades, the bank has grown its customer base to over 3 million, focusing on core retail offerings such as savings accounts, personal loans, debit/credit card services, and online banking.
 Headquartered in London, Veritas Bank is known for its technology-driven approach, with strong online banking capabilities and regional service hubs across continental Europe. The bank is strategically positioned in three countries—the UK (head office), Germany, and France—where it has tailored its services to meet local regulatory and customer behavior requirements.The primary goal was to analyse customer churn patterns across the UK, Germany, and France by identifying shared attributes among churned users, comparing behavioural metrics across regions, and segmenting customers based on churn risk. The project aimed to improve customer retention by developing data-driven insights and visualizations to guide targeted engagement.
@@ -81,25 +81,35 @@ Identify the characteristics of customers most likely to churn to adjust acquisi
 - Create DAX Measures in Power BI
 - Dashboard Development (Page 1: Customer Demographics & Segment Analysis, Page 2: Churn Analysis)
 #### 4 Phase 4: PowerPoint
-#### Key Recommendations and Actionable Insights
-Having Processed and analysed data for 10,000 customers using Microsoft SQL Server to uncover key churn drivers such as low tenure, inactivity, and product usage. Created a Power BI dashboard with 16 visualizations that tracked churn trends by country, age group, and account activity, enabling regional comparison and risk profiling, I was able to  come up with the following insights and recommendations:
-##### 1. Prioritize Retention of Mid-Term Customers (4–6 years Tenure)
-This segment has the highest churn numbers and holds significant balances and credit card usage.
-- Action:-Develop tailored loyalty programs and proactive engagement campaigns targeting mid-term customers to reduce churn and deepen product usage.
-##### 2. Focus on High-Risk and Medium-Risk Customers in Germany and France
-These countries show higher churn rates and larger proportions of high and medium risk customers compared to the UK.
-- Action: Implement region-specific retention strategies, including localized offers, personalized communication, and improved customer service.
-##### 3. Target Customers with ‘Fair’ Credit Scores for Early Intervention
-The ‘Fair’ credit score group has the highest churn and medium risk levels, indicating vulnerability.
-- Action: Use predictive analytics to flag these customers early and offer credit education, financial advice, or incentives to improve loyalty.
-##### 4. Enhance Engagement Among Inactive Mature Adults and Onboarding Customers
-Mature adults (36-55 years) and new customers (0-1 year tenure) show high inactivity and elevated churn risk.
-- Action: Launch reactivation campaigns and personalized onboarding experiences to increase activity and satisfaction.
-##### 5. Leverage Gender-Sensitive Approaches in Retention Strategies
-Females show a slightly higher churn rate proportionally, while males represent larger absolute churn numbers.
-- Action: Customize communication and product offers to address gender-specific needs and preferences, improving engagement and retention.
-##### Conclusion
-By combining demographic profiling with churn risk segmentation, the bank can deploy focused, data-driven retention strategies that protect valuable customer segments, reduce churn, and increase lifetime customer value, driving sustainable growth and profitability.
+#### Key Actionable Insights
+Having Processed and analysed data for 10,000 customers using Microsoft SQL Server to uncover key churn drivers such as low tenure, inactivity, and product usage. Created a Power BI dashboard with 16 visualizations that tracked churn trends by country, age group, and account activity, enabling regional comparison and risk profiling, I was able to  come up with the following insights
+-  The mid-term customer segment (4-6 years) holds the largest balances (£104M) but also shows the highest churn (14.81%), indicating a critical revenue risk.
+- Mature adults aged 36-55 represent the largest inactive group (2,800 members), many of whom likely fall into this mid-term tenure bracket.
+- Germany and France both have higher churn rates (around 18%) than the UK (9.93%), highlighting geographic risk zones.
+- Females and customers with “fair” credit scores are more prone to churn, suggesting opportunities for tailored product and engagement strategies.
+
+### Strategic Recommendations
+#### 1. Launch a “Mid-Term Loyalty & Reactivation Program” targeting mature adults in Germany and France:
+- Offer personalized financial products or incentives to encourage continued engagement.
+- Deploy proactive outreach to inactive mature adults with tailored communication.
+- Focus on improving customer experience through dedicated relationship managers.
+#### 2. Implement Early Warning Systems:
+- Use credit score and tenure data to flag customers at “medium” or “high” churn risk for preemptive retention.
+- Prioritize customers with “fair” credit scores and mid-term tenure for customized financial counseling and product offers.
+#### 3. Enhance Gender-Specific Retention Initiatives:
+- Since females churn slightly more, analyze usage patterns and develop products or communication campaigns to improve female customer satisfaction.
+#### 4. Leverage UK Best Practices:
+- Analyze UK’s engagement and retention models which yield lower churn, then replicate and adapt these strategies for Germany and France.
+#### 5. Improve Activation of Inactive Members:
+- Target mature adult inactive customers with reactivation campaigns focusing on digital banking adoption, personalized product bundles, or rewards.
+### Outcome Expectation
+By focusing retention efforts on the high-balance mid-term customers who are mostly mature adults in higher churn countries (Germany and France), the bank can:
+- Reduce churn rate in these vulnerable segments,
+- Increase overall active member rate beyond the current 51.5%,
+- Protect significant deposits and revenue,
+- Enhance customer lifetime value, and
+- Strengthen regional market competitiveness.
+ 
 
 
 
