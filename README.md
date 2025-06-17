@@ -52,7 +52,6 @@ Identify the characteristics of customers most likely to churn to adjust acquisi
 - Segment customers based on risk profiles and account usage.
 - Visualize key churn metrics via interactive dashboards for better decision-making
 ###  Data Dictionary
-Dataset[Download here]("C:\Users\adeol\OneDrive\AccountInfo.xlsx")
 - CustomerId: A unique identifier for each customer in the dataset.
 - LastName: The surname (last name) of the customer.
 - CreditScore: The credit score of the customer, representing their creditworthiness.
