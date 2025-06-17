@@ -52,6 +52,7 @@ Identify the characteristics of customers most likely to churn to adjust acquisi
 - Segment customers based on risk profiles and account usage.
 - Visualize key churn metrics via interactive dashboards for better decision-making
 ###  Data Dictionary
+Dataset[Download here]("C:\Users\adeol\OneDrive\AccountInfo.xlsx")
 - CustomerId: A unique identifier for each customer in the dataset.
 - LastName: The surname (last name) of the customer.
 - CreditScore: The credit score of the customer, representing their creditworthiness.
@@ -82,19 +83,19 @@ Identify the characteristics of customers most likely to churn to adjust acquisi
 #### 4 Phase 4: PowerPoint
 #### Key Recommendations and Actionable Insights
 Having Processed and analysed data for 10,000 customers using Microsoft SQL Server to uncover key churn drivers such as low tenure, inactivity, and product usage. Created a Power BI dashboard with 16 visualizations that tracked churn trends by country, age group, and account activity, enabling regional comparison and risk profiling, I was able to  come up with the following insights and recommendations:
-##### 1 Prioritize Retention of Mid-Term Customers (4–6 years Tenure)
+##### 1. Prioritize Retention of Mid-Term Customers (4–6 years Tenure)
 This segment has the highest churn numbers and holds significant balances and credit card usage.
 - Action:-Develop tailored loyalty programs and proactive engagement campaigns targeting mid-term customers to reduce churn and deepen product usage.
-##### 2 Focus on High-Risk and Medium-Risk Customers in Germany and France
+##### 2. Focus on High-Risk and Medium-Risk Customers in Germany and France
 These countries show higher churn rates and larger proportions of high and medium risk customers compared to the UK.
 - Action: Implement region-specific retention strategies, including localized offers, personalized communication, and improved customer service.
-##### 3 Target Customers with ‘Fair’ Credit Scores for Early Intervention
+##### 3. Target Customers with ‘Fair’ Credit Scores for Early Intervention
 The ‘Fair’ credit score group has the highest churn and medium risk levels, indicating vulnerability.
 - Action: Use predictive analytics to flag these customers early and offer credit education, financial advice, or incentives to improve loyalty.
-##### 4 Enhance Engagement Among Inactive Mature Adults and Onboarding Customers
+##### 4. Enhance Engagement Among Inactive Mature Adults and Onboarding Customers
 Mature adults (36-55 years) and new customers (0-1 year tenure) show high inactivity and elevated churn risk.
 - Action: Launch reactivation campaigns and personalized onboarding experiences to increase activity and satisfaction.
-##### 5 Leverage Gender-Sensitive Approaches in Retention Strategies
+##### 5. Leverage Gender-Sensitive Approaches in Retention Strategies
 Females show a slightly higher churn rate proportionally, while males represent larger absolute churn numbers.
 - Action: Customize communication and product offers to address gender-specific needs and preferences, improving engagement and retention.
 ##### Conclusion
